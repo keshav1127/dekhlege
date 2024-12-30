@@ -26,10 +26,12 @@ for(i=1;i<n;i++){
 }
 
 void display(struct Node *p){
+   printf("\n");
     while(p!=NULL){
         printf("%d\t",p->data);
         p=p->next;
     }
+printf("\n");
 }
 
 void displayR(struct Node *p){

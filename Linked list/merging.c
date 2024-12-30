@@ -63,7 +63,7 @@ void concading(struct node *p,struct node *q){
 
 void merge(struct node *p,struct node *q){
     struct node *last=NULL;
-    
+
 }
 
 int main(){
@@ -72,11 +72,12 @@ int main(){
    
     Create(a,5);
     Create2(b,5);
-//concading(first,second);
-
-    display(first);
+     display(first);
     display(second);
-    display(third);
+concading(first,second);
+
+   
+   // display(third);
    
 
     return 0;
